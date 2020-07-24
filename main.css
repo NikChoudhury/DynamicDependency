@@ -1,0 +1,77 @@
+/*####### Default style #####*/
+
+.container{
+	width: 100%;
+	margin: auto;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap; 
+	align-items: center;
+	
+}
+
+.row::after{
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.col-1{width: 8.33%;} /*(1%12)*100*/
+.col-2{width: 16.66%;} /*(2%12)*100*/
+.col-3{width: 25%;}     /*(3%12)*100*/
+.col-4{width: 33.33%;}  /*(4%12)*100*/
+.col-5{width: 41.66%;}  /*(5%12)*100*/
+.col-6{width: 50%;}     /*(6%12)*100*/
+.col-7{width: 58.33%;}  /*(7%12)*100*/
+.col-8{width: 66.66%;}  /*(8%12)*100*/
+.col-9{width: 75%;}     /*(9%12)*100*/
+.col-10{width: 83.33%;} /*(10%12)*100*/
+.col-11{width: 91.66%;} /*(11%12)*100*/
+.col-12{width: 100%;}   /*(12%12)*100*/
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*#######################################################*/
+
+/*##############  Custome Style ################*/
+
+div form textarea,
+select{
+	width: 100%;
+}
+
+input.fullname{
+	width: 100%;
+}
+
+div input.pin_number{
+	width: 30%;
+}
+
+div.buttons{
+	text-align: center;
+}
+
+div.buttons input{
+	width: 50%;
+	margin-top: 10px;
+
+}
+
+.btnclass{
+	display: block;
+	width: 50%;
+	margin-top: 25px;
+}
+
+/*label{
+	margin-bottom: 
+}*/
+
+
