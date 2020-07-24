@@ -1,3 +1,3 @@
 # DynamicDependency
-Dynamic Dependency With AJAX and JavaScript
+Dynamic Dependency With HTML PHP SQL AJAX and JavaScript 
 Upgrade My Code
